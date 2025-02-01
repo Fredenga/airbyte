@@ -1,7 +1,7 @@
 const BioFooter = () => {
   const items = [1, 2, 3, 4];
   return (
-    <section className="md:px-36 mt-20 pt-40 pb-5 bg-black text-white">
+    <section className="md:px-36  pt-30 pb-5 bg-black text-white">
       <div className="flex flex-wrap text-white my-10">
         <div className="w-1/4">
           <h1 className="text-center mb-3 text-2xl">OUR MISSION</h1>
@@ -35,7 +35,7 @@ const BioFooter = () => {
       <div className="flex w-3/5 justify-between mt-10">
         {items.map((item) => (
           <img
-            className="h-20 w-20"
+            className="h-16 w-16"
             src={`/src/assets/icon${item}.jpg`}
             alt="icon"
           />

@@ -1,6 +1,6 @@
 const BioMiddle = () => {
   return (
-    <section>
+    <section className="relative">
       <div className="mt-10 md:px-44 relative">
         <img src="/src/assets/bioImg.jpg" alt="bio" />
         <img
