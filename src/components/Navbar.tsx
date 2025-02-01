@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full h-24 z-10 bg-gray-100  flex items-center justify-between md:px-36">
@@ -10,8 +11,10 @@ const Navbar = () => {
       </div>
       <div id="middle-nav" className="">
         <ul className="flex">
-          <li className="mr-10 font-bold">HOME</li>
-          <li className="mr-10">BIO</li>
+          <li className="mr-10 font-bold">
+            <Link to="/">HOME</Link>
+            </li>
+          <li className="mr-10"><Link to="/bio">BIO</Link></li>
           <li className="mr-10">PORTFOLIO</li>
           <li className="mr-10">HISTORY</li>
           <li className="mr-10">AIRBYTE FOUNDATION</li>

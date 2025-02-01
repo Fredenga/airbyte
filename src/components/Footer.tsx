@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   const items = ["ig", "fb", "yt"];
   function scrollToTop() {
@@ -11,7 +13,7 @@ const Footer = () => {
     <section className="md:px-36 mt-20 py-10 w-screen bg-black">
       <div className="w-full items-center flex justify-between">
         <img
-          className="h-10 w-10 border border-1 border-gray-500 rounded-full"
+          className="h-10 w-10 border-1 border-gray-500 rounded-full"
           src="/src/assets/footerIcon.jpg"
           alt=""
         />
@@ -26,8 +28,12 @@ const Footer = () => {
         </div>
         <div className="w-1/3 leading-10">
           <h3 className="font-semibold">Info</h3>
-          <p>Home</p>
-          <p>Bio</p>
+          <p>
+            <Link to="/">Home</Link>
+          </p>
+          <p>
+            <Link to="/bio">Bio</Link>
+          </p>
           <p>Portfolio</p>
           <p>History</p>
           <p>Airbeat Foundation</p>
@@ -37,15 +43,13 @@ const Footer = () => {
           <address>+254 728476008</address>
           <address>airbeatkenya@gmail.com</address>
         </div>
-        <div className="w-1/6 flex  justify-between">
+        <div className="w-1/6 flex justify-between">
           {items.map((item) => (
-            <div className="flex items-center justify-center">
-              <img
-                className="w-10 h-10 rounded-full"
-                src={`/src/assets/${item}.jpg`}
-                alt=""
-              />
-            </div>
+            <img
+              className="w-10 h-10 rounded-full"
+              src={`/src/assets/${item}.jpg`}
+              alt=""
+            />
           ))}
         </div>
       </div>
