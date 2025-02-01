@@ -1,5 +1,6 @@
 import AboutUs from "../components/AboutUs";
 import Charity from "../components/Charity";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
@@ -20,6 +21,9 @@ const Home = () => {
         <SummerTides />
         <Charity />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </body>
   );
 };
