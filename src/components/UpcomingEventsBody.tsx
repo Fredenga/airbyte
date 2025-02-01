@@ -13,24 +13,24 @@ const UpcomingEventsBody = () => {
                 <h1 className="font-bold text-xl mt-2 mb-3">{item.title}</h1>
                 <p className="mb-3 flex items-center">
                   <img
-                    className="w-5 h-5 bg-white rounded-full mr-2 "
-                    src="/src/assets/calendar.png"
+                    className="w-5 h-5  rounded-full mr-2 "
+                    src="/src/assets/calender.jpg"
                     alt=""
                   />
                   {item.date}
                 </p>
                 <p className="mb-3 flex items-center">
                   <img
-                    className="w-5 h-5 bg-white rounded-full mr-2 "
-                    src="/src/assets/location.png"
+                    className="w-5 h-5 rounded-full mr-2 "
+                    src="/src/assets/location.jpg"
                     alt=""
                   />
                   {item.venue}
                 </p>
                 <p className="mb-3 flex items-center">
                   <img
-                    className="w-5 h-5 bg-white rounded-full mr-2"
-                    src="/src/assets/supermarket.png"
+                    className="w-5 h-5 rounded-full mr-2"
+                    src="/src/assets/tag.jpg"
                     alt=""
                   />
                   {item.price}

@@ -37,13 +37,15 @@ const Footer = () => {
           <address>+254 728476008</address>
           <address>airbeatkenya@gmail.com</address>
         </div>
-        <div className="w-1/6 flex justify-between">
+        <div className="w-1/6 flex  justify-between">
           {items.map((item) => (
-            <img
-              className="w-10 h-10 rounded-full"
-              src={`/src/assets/${item}.jpg`}
-              alt=""
-            />
+            <div className="flex items-center justify-center">
+              <img
+                className="w-10 h-10 rounded-full"
+                src={`/src/assets/${item}.jpg`}
+                alt=""
+              />
+            </div>
           ))}
         </div>
       </div>
