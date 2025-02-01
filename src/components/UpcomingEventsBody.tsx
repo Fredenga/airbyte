@@ -35,7 +35,7 @@ const UpcomingEventsBody = () => {
                   />
                   {item.price}
                 </p>
-                <button className="bg-white text-black mb-6 px-20 py-1 font-semibold">
+                <button className="bg-white text-black mb-6 px-20 py-1 font-semibold cursor-pointer">
                   Get Tickets
                 </button>
               </div>
