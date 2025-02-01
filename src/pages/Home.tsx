@@ -1,6 +1,7 @@
 import AboutUs from "../components/AboutUs";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Partners from "../components/Partners";
 import UpcomingEvents from "../components/UpcomingEvents";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <Hero />
         <AboutUs />
         <UpcomingEvents />
+        <Partners />
       </main>
     </body>
   );
