@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="bg-gray-100 h-24 flex items-center justify-between md:px-36">
+    <nav className="fixed top-0 w-full h-24 z-10 bg-gray-100  flex items-center justify-between md:px-36">
       <div id="left-nav" className="">
         <img
           src="/src/assets/logo.jpg"
