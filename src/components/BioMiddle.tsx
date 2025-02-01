@@ -6,7 +6,7 @@ const BioMiddle = () => {
         <img
           src="/src/assets/play.jpg"
           alt="bio"
-          className="absolute top-1/2 left-[calc(28%+16.67%)] rounded-full"
+          className="absolute top-1/2 left-[calc(28%+16.67%)] rounded-full cursor-pointer"
         />
       </div>
     </section>
