@@ -1,9 +1,11 @@
-import Home from "./pages/Home";
+import Bio from "./pages/Bio";
+// import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
+      <Bio />
     </div>
   );
 };

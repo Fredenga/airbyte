@@ -1,4 +1,11 @@
 const Footer = () => {
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
   return (
     <section className="md:px-36 mt-20 py-10 w-screen bg-black">
       <div className="w-full items-center flex justify-between">
@@ -41,7 +48,10 @@ const Footer = () => {
           <h4>Certificate</h4>
         </div>
         <div className="w-2/9">
-          <div className="h-10 w-10 bg-white flex items-center justify-center rounded-full cursor-pointer">
+          <div
+            className="h-10 w-10 bg-white flex items-center justify-center rounded-full cursor-pointer"
+            onClick={scrollToTop}
+          >
             <img className="w-5 h-5 " src="/src/assets/up-arrow.png" alt="up" />
           </div>
         </div>
