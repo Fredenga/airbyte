@@ -1,4 +1,5 @@
 const Footer = () => {
+  const items = ["ig", "fb", "yt"];
   function scrollToTop() {
     window.scrollTo({
       top: 0,
@@ -36,8 +37,14 @@ const Footer = () => {
           <address>+254 728476008</address>
           <address>airbeatkenya@gmail.com</address>
         </div>
-        <div className="w-1/6">
-          <i className="fa-brands fa-facebook"></i>
+        <div className="w-1/6 flex justify-between">
+          {items.map((item) => (
+            <img
+              className="w-10 h-10 rounded-full"
+              src={`/src/assets/${item}.jpg`}
+              alt=""
+            />
+          ))}
         </div>
       </div>
       <div className="flex text-white">
