@@ -1,4 +1,5 @@
 import AboutUs from "../components/AboutUs";
+import Charity from "../components/Charity";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
@@ -17,6 +18,7 @@ const Home = () => {
         <UpcomingEvents />
         <Partners />
         <SummerTides />
+        <Charity />
       </main>
     </body>
   );
