@@ -4,7 +4,7 @@ const Charity = () => {
       <h1 className="text-2xl font-bold text-center mb-10">
         AIRBEAT FOUNDATION
       </h1>
-      <div className="flex">
+      <div className="flex flex-col items-center md:items-start md:flex-row ">
         <div className="w-1/2 py-5 pr-5">
           <img src="/src/assets/postImg.jpg" alt="postImg" />
         </div>

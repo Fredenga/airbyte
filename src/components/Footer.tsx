@@ -11,7 +11,7 @@ const Footer = () => {
   }
   return (
     <section className="md:px-36 mt-20 py-10 w-screen bg-black">
-      <div className="w-full items-center flex justify-between">
+      <div className="w-full items-center flex justify-around md:justify-between">
         <img
           className="h-10 w-10 border-1 border-gray-500 rounded-full"
           src="/src/assets/footerIcon.jpg"
@@ -21,7 +21,7 @@ const Footer = () => {
           Explore Events
         </button>
       </div>
-      <div className="flex flex-col md:flex-row text-white my-10">
+      <div className="flex flex-col pl-5 md:pl-0 md:flex-row  text-white my-10">
         <div className="w-1/3">
           <h3 className="font-semibold mb-1">Address</h3>
           <address>Nairobi, Kenya</address>
@@ -43,7 +43,7 @@ const Footer = () => {
           <address>+254 728476008</address>
           <address>airbeatkenya@gmail.com</address>
         </div>
-        <div className="w-1/6 flex justify-between">
+        <div className="w-1/6 flex justify-between mt-4 md:mt-0">
           {items.map((item) => (
             <img
               className="w-10 h-10 rounded-full"
