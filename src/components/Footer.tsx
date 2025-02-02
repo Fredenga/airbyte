@@ -21,7 +21,7 @@ const Footer = () => {
           Explore Events
         </button>
       </div>
-      <div className="flex flex-wrap text-white my-10">
+      <div className="flex flex-col md:flex-row text-white my-10">
         <div className="w-1/3">
           <h3 className="font-semibold mb-1">Address</h3>
           <address>Nairobi, Kenya</address>
