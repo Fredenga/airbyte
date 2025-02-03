@@ -37,7 +37,11 @@ const Charity = () => {
             and hope by making a<br />
             donation today!
           </p>
-          <button className="mt-12 bg-black text-white flex items-center rounded-xl px-6 py-2 cursor-pointer">
+          <button
+            className="mt-12 bg-black text-white flex 
+          items-center rounded-xl px-6 py-2 cursor-pointer
+          transition-all duration-300 ease-in-out transform hover:scale-120 hover:bg-gray-500"
+          >
             Donate Now
             <img
               src="/src/assets/arrow.png"
