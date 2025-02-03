@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full h-24 z-10 bg-gray-100  flex items-center justify-between md:px-36">
@@ -11,13 +11,21 @@ const Navbar = () => {
       </div>
       <div id="middle-nav" className="">
         <ul className="flex">
-          <li className="mr-10 font-bold">
+          <li className="mr-10 hover:text-gray-500 transition-all duration-300 ease-in cursor-pointer hover:text-xl font-bold">
             <Link to="/">HOME</Link>
-            </li>
-          <li className="mr-10"><Link to="/bio">BIO</Link></li>
-          <li className="mr-10">PORTFOLIO</li>
-          <li className="mr-10">HISTORY</li>
-          <li className="mr-10">AIRBYTE FOUNDATION</li>
+          </li>
+          <li className="mr-10 hover:text-gray-500 transition-all duration-300 ease-in cursor-pointer hover:text-xl">
+            <Link to="/bio">BIO</Link>
+          </li>
+          <li className="mr-10 hover:text-gray-500 transition-all duration-300 ease-in cursor-pointer hover:text-xl">
+            PORTFOLIO
+          </li>
+          <li className="mr-10 hover:text-gray-500 transition-all duration-300 ease-in cursor-pointer hover:text-xl">
+            HISTORY
+          </li>
+          <li className="mr-10 hover:text-gray-500 transition-all duration-300 ease-in cursor-pointer hover:text-xl">
+            AIRBYTE FOUNDATION
+          </li>
         </ul>
       </div>
       <div id="right-nav" className="">
